@@ -34,6 +34,7 @@ header{
     padding: 0 40px;
     border-radius: 0 0 10px 20px;
     margin: 0 auto;
+    
 }
 nav .logo{
     display: none;
@@ -86,6 +87,9 @@ nav ul li a:hover{
 .social-icon:hover{
     transform: translateY(-.30rem);
 }
+.social-icon{
+    display: none;
+}
 .hamburger{
     display: none;
     height: fit-content;
@@ -105,6 +109,8 @@ nav ul li a:hover{
 .body-1{
     font-family: "Poppins", sans-serif;
     width: 100%;
+   
+
 }
 
 .title-body{
@@ -113,8 +119,6 @@ nav ul li a:hover{
     margin-bottom: 20px;
     margin-left: 70px;
     letter-spacing: 3px;
-    width: 100%;
-
 }
 .title-body h1{
     color: #fff;
@@ -140,6 +144,79 @@ nav ul li a:hover{
     background: rebeccapurple;
     
 }
+
+.cards{
+    background: #fff;
+    margin-top: 150px;
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 3px 5px rebeccapurple;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    padding: 50px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 40%);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    transition: 0.9s;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.img1 {
+    width: 200px;
+}
+
+.img2 {
+    width: 250px;
+    padding: auto 20px;
+}
+
+.img3 {
+    width: 250px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #cc00ff;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+.info p{
+    font-weight: bold;
+}
 @media only screen and (max-width:880px){
     .title-body h1{
         font-size: 60px;
@@ -147,7 +224,7 @@ nav ul li a:hover{
 
 }
 
-@media only screen and (max-width:970px) {
+@media only screen and (max-width:850px) {
     header{
         width: 90%;
         padding: 0 20px;
@@ -192,6 +269,19 @@ nav ul li a:hover{
     .title-body h1{
         font-size: 50px;
     }
+
+    .img1 {
+        width: 150px;
+    }
+    
+    .img2 {
+        width: 200px;
+        padding: auto 20px;
+    }
+    
+    .img3 {
+        width: 200px;
+    }
     
 }
 @media only screen and (max-width:620px){
@@ -210,6 +300,7 @@ nav ul li a:hover{
     .btn-body{
         font-size: 16px;
     }
+   
 
 }
 @media only screen and (max-width:400px){
