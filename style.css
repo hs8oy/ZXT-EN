@@ -237,6 +237,7 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width:850px) {
+
     header {
         width: 100%;
         padding: 0 20px;
@@ -303,6 +304,10 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width:620px) {
+
+.title-body {
+    padding-left: 50px;
+}
     .title-body h1 {
         padding-top: 0px;
         font-size: 50px;
