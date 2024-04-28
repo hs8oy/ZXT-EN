@@ -332,7 +332,7 @@ nav ul li a:hover {
 
 .information div img{
     width: 300px;
-    margin: 20px 20px;
+    margin: 2px 20px;
 }
 .information a{
     color: #fff;
@@ -443,16 +443,11 @@ footer div a:hover {
     .img3 {
         width: 200px;
     }
-  
 
 }
+
 @media only screen and (max-width:700px) {
 
-    .information{
-        
-    }
-    
-   
     .information .di{
         display: inline;
         align-items: center;
@@ -473,6 +468,7 @@ footer div a:hover {
     }
 
 
+
 }
 
 @media only screen and (max-width:620px) {
@@ -488,6 +484,7 @@ footer div a:hover {
     .btn-body {
         font-size: 16px;
     }
+
     .information div img{
         width: 200px;
         margin: 0 100px;
