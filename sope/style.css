@@ -35,6 +35,7 @@ header {
     border-radius: 0 0 10px 20px;
     margin: 0 auto;
     position: fixed;
+    z-index: 999;
 }
 
 nav .logo {
@@ -101,6 +102,50 @@ nav ul li a:hover {
 
 /*  */
 
+.sliders{
+    background: #fff;
+    padding-top: 100px;
+}
+.slider div{
+    text-align: center;
+    align-items: center;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 400px; /* تعديل ارتفاع السلايدر حسب الرغبة */
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 500px;
+    object-fit: cover;
+}
+.slide .img22 {
+    width: 800px;
+}
+.slide .img33{
+    width: 300px;
+}
+.slide .img{
+    width: 400px;
+}
+
 .title2 {
     display: flex;
     justify-content: center;
@@ -114,9 +159,8 @@ nav ul li a:hover {
 .st {
     background: #000016;
     color: #fff;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 100px;
-
     font-family: "Poppins", sans-serif;
 
 }
@@ -226,7 +270,7 @@ footer div a:hover {
     transform: scale(1.1);
 }
 
-@media only screen and (max-width:880px) {}
+
 
 @media only screen and (max-width:850px) {
     header {
@@ -274,6 +318,12 @@ footer div a:hover {
         display: block;
     }
 
+
+.slide .img22 {
+    width: 600px;
+}
+
+
 }
 
 @media only screen and (max-width:620px) {
@@ -289,6 +339,31 @@ footer div a:hover {
         font-size: 15px;
 
     }
+
+
+.slide .img22 {
+    width: 500px;
+}
+
+
+}
+
+@media only screen and (max-width:500px) {
+
+    .slide img {
+        width: 400px;
+        object-fit: cover;
+    }
+    .slide .img22 {
+        width: 300px;
+    }
+    .slide .img33{
+        width: 200px;
+    }
+    .slide .img{
+        width: 300px;
+    }
+
 
 }
 
@@ -311,6 +386,7 @@ footer div a:hover {
         font-size: 17px;
         padding-bottom: 15px;
     }
+  
 
 
 }
