@@ -79,7 +79,6 @@ nav ul li a:hover {
     font-family: "Cairo", sans-serif;
     font-weight: 700;
     font-size: 19px;
-
 }
 
 
@@ -334,7 +333,11 @@ nav ul li a:hover {
     width: 300px;
     margin: 2px 20px;
 }
-.information a{
+.information .bt{
+    margin: 20px 0;
+    
+}
+.information .bt a{
     color: #fff;
     padding: 10px 20px;
     border:2px solid #cc00ff;
@@ -342,7 +345,7 @@ nav ul li a:hover {
     background: #2e2e2e;
     transition: 0.5s ease;
 }
-.information a:hover{
+.information .bt a:hover{
     background: #cc00ff;
     text-shadow: 2px 1px 4px black;
     
@@ -449,22 +452,22 @@ footer div a:hover {
 @media only screen and (max-width:700px) {
 
     .information .di{
-        display: inline;
-        align-items: center;
-        margin: 0 30px;
+        margin: 20px 0;
+        display: block;
+        text-align: center;
     }
-    .information .di p{
-        margin: 30px 50px;
-    }
-    
-    .information div img{
+
+     .information .di img{
         width: 200px;
-        margin: 0 200px;
+     }
+     .information .di p{
+        margin: 10px 20px;
+     }
+    .information .bt{
+        margin: 10px 0;
+        text-align: center;
     }
-    .information a{
-        padding: 5px 10px;
-        margin: 0 10px;
-    }
+
 
 
 
@@ -485,7 +488,7 @@ footer div a:hover {
     }
 
     .information div img{
-        width: 200px;
+        width: 100px;
         margin: 0 100px;
     }
 
