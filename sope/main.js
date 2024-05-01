@@ -10,7 +10,7 @@ function orderNow(button) {
  كود المنتج : ${productImage}`;
  
     const encodedMessage = encodeURIComponent(message);
-    const username = "hs8oy"; // معرف حسابك في تليجرام
+    const username = "ZXT5_BOT"; // معرف حسابك في تليجرام
     const url = `https://t.me/${username}?text=${encodedMessage}`;
     window.open(url);
   }
