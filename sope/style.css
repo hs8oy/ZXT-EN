@@ -220,7 +220,10 @@ nav ul li a:hover {
 .Order:hover {
     background: rebeccapurple;
 }
-
+.infor{
+    margin: 0;
+    background: rebeccapurple;
+}
 ::-webkit-scrollbar {
     width: 9px;
 }
